@@ -12,12 +12,6 @@ const skills = [
   "ETL",
 ];
 
-const certifications = [
-  "Microsoft PL-300 (Power BI Data Analyst)",
-  "Google Data Analytics Certificate",
-  "SQL for Data Science",
-];
-
 const tools = [
   { name: "Power BI", level: "Avançado" },
   { name: "Excel", level: "Avançado" },

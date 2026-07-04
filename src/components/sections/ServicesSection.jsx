@@ -1,6 +1,13 @@
 import { motion } from "framer-motion";
 import { SectionTitle } from "../ui/SectionTitle";
-import { LayoutDashboard, Lightbulb, Target, BarChart2, FileText, TrendingUp } from "lucide-react";
+import {
+  LayoutDashboard,
+  Lightbulb,
+  Target,
+  BarChart2,
+  FileText,
+  TrendingUp,
+} from "lucide-react";
 
 const services = [
   {
@@ -9,12 +16,7 @@ const services = [
     description:
       "Criação de dashboards interativos e intuitivos no Power BI, conectando múltiplas fontes de dados para visão 360° do negócio.",
   },
-  {
-    icon: Lightbulb,
-    title: "Business Intelligence Consulting",
-    description:
-      "Consultoria estratégica para implementação de cultura data-driven, definição de arquitetura de dados e melhores práticas.",
-  },
+
   {
     icon: Target,
     title: "KPI Definition",
@@ -58,7 +60,9 @@ function ServiceCard({ service, index }) {
       <h3 className="text-text-primary font-heading text-xl mb-3">
         {service.title}
       </h3>
-      <p className="text-text-secondary leading-relaxed">{service.description}</p>
+      <p className="text-text-secondary leading-relaxed">
+        {service.description}
+      </p>
     </motion.div>
   );
 }
@@ -77,14 +81,18 @@ export function ServicesSection() {
           >
             <SectionTitle className="mb-4">Serviços</SectionTitle>
             <p className="text-text-secondary text-lg">
-              Soluções de Business Intelligence e Analytics para transformar 
+              Soluções de Business Intelligence e Analytics para transformar
               dados em vantagem competitiva
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((service, index) => (
-              <ServiceCard key={service.title} service={service} index={index} />
+              <ServiceCard
+                key={service.title}
+                service={service}
+                index={index}
+              />
             ))}
           </div>
         </div>
