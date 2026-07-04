@@ -25,7 +25,6 @@ const tools = [
   { name: "Python", level: "Intermediário" },
 ];
 
-
 export function AboutSection() {
   return (
     <section id="sobre" className="py-24 md:py-32 bg-surface">
@@ -42,21 +41,29 @@ export function AboutSection() {
               <SectionTitle className="mb-6">Sobre</SectionTitle>
               <div className="space-y-4 text-text-secondary text-lg leading-relaxed">
                 <p>
-                Sou Analista de Business Intelligence com experiência na transformação de dados em informações estratégicas para apoiar a tomada de decisões. Ao longo da minha trajetória, desenvolvi expertise na criação de dashboards interativos, modelagem de dados e desenvolvimento de indicadores de desempenho, sempre buscando tornar informações complexas mais claras, acessíveis e relevantes para o negócio.
+                  Sou Analista de Business Intelligence com experiência na
+                  transformação de dados em informações estratégicas para apoiar
+                  a tomada de decisões. Ao longo da minha trajetória, desenvolvi
+                  expertise na criação de dashboards interativos, modelagem de
+                  dados e desenvolvimento de indicadores de desempenho, sempre
+                  buscando tornar informações complexas mais claras, acessíveis
+                  e relevantes para o negócio.
                 </p>
                 <p>
-                  Especialista em Power BI, SQL e análise de dados, combino 
-                  habilidades técnicas com visão de negócio para entregar soluções 
-                  que geram valor e resultados. Acredito que os dados têm o poder 
-                  de contar histórias e revelar oportunidades, e meu objetivo é 
-                  transformar essas informações em insights que impulsionem o 
-                  crescimento e a eficiência das organizações.
+                  Especialista em Power BI, SQL e análise de dados, combino
+                  habilidades técnicas com visão de negócio para entregar
+                  soluções que geram valor e resultados. Acredito que os dados
+                  têm o poder de contar histórias e revelar oportunidades, e meu
+                  objetivo é transformar essas informações em insights que
+                  impulsionem o crescimento e a eficiência das organizações.
                 </p>
               </div>
 
               {/* Skills */}
               <div className="mt-8">
-                <h3 className="text-text-primary font-medium mb-4">Habilidades</h3>
+                <h3 className="text-text-primary font-medium mb-4">
+                  Habilidades
+                </h3>
                 <div className="flex flex-wrap gap-2">
                   {skills.map((skill) => (
                     <span
@@ -67,19 +74,6 @@ export function AboutSection() {
                     </span>
                   ))}
                 </div>
-              </div>
-
-              {/* Certifications */}
-              <div className="mt-6">
-                <h3 className="text-text-primary font-medium mb-4">Certificações</h3>
-                <ul className="space-y-2">
-                  {certifications.map((cert) => (
-                    <li key={cert} className="text-text-secondary text-sm flex items-center gap-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-primary" />
-                      {cert}
-                    </li>
-                  ))}
-                </ul>
               </div>
             </motion.div>
 
@@ -97,12 +91,17 @@ export function AboutSection() {
                 </h3>
                 <div className="space-y-4">
                   {tools.map((tool) => (
-                    <div key={tool.name} className="flex items-center justify-between">
+                    <div
+                      key={tool.name}
+                      className="flex items-center justify-between"
+                    >
                       <span className="text-text-primary">{tool.name}</span>
                       <div className="flex items-center gap-3">
-                        <span className="text-text-secondary text-sm">{tool.level}</span>
+                        <span className="text-text-secondary text-sm">
+                          {tool.level}
+                        </span>
                         <div className="w-24 h-2 bg-card rounded-full overflow-hidden">
-                          <div 
+                          <div
                             className={`h-full bg-primary rounded-full ${
                               tool.level === "Avançado" ? "w-full" : "w-2/3"
                             }`}
@@ -113,8 +112,6 @@ export function AboutSection() {
                   ))}
                 </div>
               </div>
-
-
             </motion.div>
           </div>
         </div>
