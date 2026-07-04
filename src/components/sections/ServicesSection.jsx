@@ -16,7 +16,12 @@ const services = [
     description:
       "Criação de dashboards interativos e intuitivos no Power BI, conectando múltiplas fontes de dados para visão 360° do negócio.",
   },
-
+  {
+    icon: Lightbulb,
+    title: "Business Intelligence Consulting",
+    description:
+      "Consultoria estratégica para implementação de cultura data-driven, definição de arquitetura de dados e melhores práticas.",
+  },
   {
     icon: Target,
     title: "KPI Definition",

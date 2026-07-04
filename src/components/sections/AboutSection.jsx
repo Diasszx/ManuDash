@@ -2,10 +2,8 @@ import { motion } from "framer-motion";
 import { SectionTitle } from "../ui/SectionTitle";
 
 const skills = [
-  "Power BI",
+  "Power BI Intermediário",
   "Excel Avançado",
-  "SQL",
-  "Python",
   "DAX",
   "Data Analysis",
   "Data Visualization",
@@ -13,10 +11,8 @@ const skills = [
 ];
 
 const tools = [
-  { name: "Power BI", level: "Avançado" },
+  { name: "Power BI", level: "Intermediário" },
   { name: "Excel", level: "Avançado" },
-  { name: "SQL", level: "Intermediário" },
-  { name: "Python", level: "Intermediário" },
 ];
 
 export function AboutSection() {
@@ -44,7 +40,7 @@ export function AboutSection() {
                   e relevantes para o negócio.
                 </p>
                 <p>
-                  Especialista em Power BI, SQL e análise de dados, combino
+                  Especialista em Power BI, Excel e análise de dados, combino
                   habilidades técnicas com visão de negócio para entregar
                   soluções que geram valor e resultados. Acredito que os dados
                   têm o poder de contar histórias e revelar oportunidades, e meu
