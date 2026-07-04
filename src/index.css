@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #050505;
+  --color-surface: #111111;
+  --color-card: #1A1A1A;
+  --color-border: #2A2A2A;
+
+  --color-primary: #FF4A1C;
+
+  --color-text-primary: #F5F5F0;
+  --color-text-secondary: #B5B5B5;
+  --color-text-muted: #7A7A7A;
+
+  --font-heading: "Playfair Display", serif;
+  --font-body: "Inter", sans-serif;
+}
