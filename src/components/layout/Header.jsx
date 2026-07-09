@@ -36,8 +36,8 @@ export function Header() {
         <div className="px-4 md:px-8 lg:px-12">
           <nav className="flex items-center justify-between max-w-7xl mx-auto">
             {/* Logo */}
-            <Link to="/" className="font-heading text-2xl text-text-primary">
-              M
+            <Link to="/" className="flex items-center">
+              <img src="/favicon.png" alt="Manu" className="h-8 w-auto" />
             </Link>
 
             {/* Desktop Navigation */}

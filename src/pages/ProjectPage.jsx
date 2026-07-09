@@ -4,7 +4,14 @@ import { getProjectById } from "../data/projects";
 import { Header } from "../components/layout/Header";
 import { Footer } from "../components/layout/Footer";
 import { ScrollToTop } from "../components/ui/ScrollToTop";
-import { ArrowLeft, Target, Database, Lightbulb, TrendingUp, ArrowRight } from "lucide-react";
+import {
+  ArrowLeft,
+  Target,
+  Database,
+  Lightbulb,
+  TrendingUp,
+  ArrowRight,
+} from "lucide-react";
 import { Button } from "../components/ui/Button";
 
 export function ProjectPage() {
@@ -29,8 +36,8 @@ export function ProjectPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <Link 
-                to="/" 
+              <Link
+                to="/"
                 className="inline-flex items-center gap-2 text-text-muted hover:text-primary transition-colors mb-8"
               >
                 <ArrowLeft className="w-4 h-4" />
@@ -40,8 +47,12 @@ export function ProjectPage() {
               <h1 className="font-heading text-[clamp(2.5rem,6vw,4rem)] text-text-primary mb-4">
                 {project.title}
               </h1>
-              <p className="text-text-secondary text-xl mb-6">{project.subtitle}</p>
-              <p className="text-text-secondary max-w-3xl mb-8">{project.objective}</p>
+              <p className="text-text-secondary text-xl mb-6">
+                {project.subtitle}
+              </p>
+              <p className="text-text-secondary max-w-3xl mb-8">
+                {project.objective}
+              </p>
 
               {/* Technologies & KPIs */}
               <div className="flex flex-wrap gap-2 mb-8">
@@ -107,7 +118,7 @@ export function ProjectPage() {
                 transition={{ duration: 0.6 }}
               >
                 <h2 className="font-heading text-2xl md:text-3xl text-text-primary mb-8">
-                  Demo em Vídeo
+                  Demonstração em Vídeo
                 </h2>
                 <div className="aspect-video bg-card border border-border rounded-lg overflow-hidden">
                   <iframe
@@ -150,7 +161,9 @@ export function ProjectPage() {
                     <div className="w-12 h-12 rounded-lg bg-red-500/10 flex items-center justify-center">
                       <Target className="w-6 h-6 text-red-500" />
                     </div>
-                    <h3 className="font-heading text-xl text-text-primary">Problema</h3>
+                    <h3 className="font-heading text-xl text-text-primary">
+                      Problema
+                    </h3>
                   </div>
                   <p className="text-text-secondary leading-relaxed">
                     {project.caseStudy.problem}
@@ -169,7 +182,9 @@ export function ProjectPage() {
                     <div className="w-12 h-12 rounded-lg bg-blue-500/10 flex items-center justify-center">
                       <Database className="w-6 h-6 text-blue-500" />
                     </div>
-                    <h3 className="font-heading text-xl text-text-primary">Dados</h3>
+                    <h3 className="font-heading text-xl text-text-primary">
+                      Dados
+                    </h3>
                   </div>
                   <p className="text-text-secondary leading-relaxed">
                     {project.caseStudy.data}
@@ -188,7 +203,9 @@ export function ProjectPage() {
                     <div className="w-12 h-12 rounded-lg bg-amber-500/10 flex items-center justify-center">
                       <Lightbulb className="w-6 h-6 text-amber-500" />
                     </div>
-                    <h3 className="font-heading text-xl text-text-primary">Solução</h3>
+                    <h3 className="font-heading text-xl text-text-primary">
+                      Solução
+                    </h3>
                   </div>
                   <p className="text-text-secondary leading-relaxed">
                     {project.caseStudy.solution}
@@ -207,7 +224,9 @@ export function ProjectPage() {
                     <div className="w-12 h-12 rounded-lg bg-emerald-500/10 flex items-center justify-center">
                       <TrendingUp className="w-6 h-6 text-emerald-500" />
                     </div>
-                    <h3 className="font-heading text-xl text-text-primary">Impacto</h3>
+                    <h3 className="font-heading text-xl text-text-primary">
+                      Impacto
+                    </h3>
                   </div>
                   <p className="text-text-secondary leading-relaxed">
                     {project.caseStudy.impact}
@@ -232,8 +251,8 @@ export function ProjectPage() {
                 Interessado em um projeto similar?
               </h2>
               <p className="text-text-secondary mb-8 max-w-xl mx-auto">
-                Vamos conversar sobre como posso ajudar sua empresa a transformar 
-                dados em decisões estratégicas.
+                Vamos conversar sobre como posso ajudar sua empresa a
+                transformar dados em decisões estratégicas.
               </p>
               <Link to="/#contato">
                 <Button className="group">
