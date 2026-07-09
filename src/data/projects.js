@@ -55,13 +55,7 @@ export const projects = [
     objective:
       "Acompanhar performance de campanhas digitais e calcular ROI em tempo real para otimização de investimentos em marketing.",
     technologies: ["Power BI"],
-    kpis: [
-      "ROI por Canal",
-      "CAC",
-      "LTV",
-      "Taxa de Conversão",
-      "Leads Qualificados",
-    ],
+    kpis: ["Centro de Custos", "DRE Consolidada"],
     videoUrl: "https://www.youtube.com/embed/zkDiMBKtwog",
     images: [expensesDashboardImg],
     caseStudy: {
