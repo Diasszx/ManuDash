@@ -70,12 +70,12 @@ export const projects = [
     images: ["/dashboard-marketing-1.jpg"],
     caseStudy: {
       problem:
-        "O time de marketing não conseguia mensurar o ROI das campanhas de forma ágil. Os dados estavam dispersos entre Google Ads, Meta Ads, LinkedIn e o CRM, exigindo consolidação manual. Não havia visibilidade do custo de aquisição por canal nem do lifetime value dos clientes.",
-      data: "Extração automática via APIs do Google Ads, Meta Business, LinkedIn Campaign Manager e Google Analytics 4. Cruzamento com dados do CRM para identificar conversões e calcular LTV. Volume de 50k+ eventos diários. O desafio foi criar um modelo de atribuição que refletisse a jornada real do cliente.",
+        "O controle eficiente das despesas é essencial para manter a saúde financeira da empresa. Este projeto foi desenvolvido para centralizar as informações de gastos e facilitar a identificação dos principais centros de custo, apoiando análises financeiras e o controle orçamentário.",
+      data: "Base de dados fictícia para fins educacionais contendo registros de despesas, categorias, centros de custo, períodos e movimentações financeiras, tratadas e modeladas para análise no Power BI.",
       solution:
-        "Dashboard integrado com atualização horária mostrando performance por canal, campanha e criativo. Implementei modelo de atribuição multitoque. Criei funil de conversão completo desde impressão até receita. Desenvolvi alertas para campanhas com CPA acima do esperado e recomendações automáticas de reallocation de budget.",
+        "Desenvolvimento de um dashboard em Power BI utilizando Power Query para tratamento dos dados, modelagem dimensional e medidas em DAX. O painel apresenta indicadores de despesas e saldo final, análise por centro de custo, evolução dos gastos por período e detalhamento das movimentações financeiras por categoria.",
       impact:
-        "Aumento de 35% no ROI de campanhas após identificação de canais mais eficientes. Redução de 28% no CAC através de otimização contínua. O time passou a reagir em até 4 horas a campanhas underperforming vs 3 dias anteriormente. Economia de R$ 500k em investimentos ineficientes no primeiro semestre.",
+        "Dashboard interativo que consolida os principais indicadores de despesas em uma única interface, proporcionando uma visão clara da distribuição dos gastos, facilitando o acompanhamento financeiro e demonstrando a aplicação de boas práticas em Business Intelligence, modelagem de dados e visualização de informações.",
     },
   },
 ];

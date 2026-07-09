@@ -36,7 +36,7 @@ const projects = [
     id: "marketing-dashboard",
     title: "Dashboard de Despesas",
     description:
-      "Campaign performance hub measuring ROI by channel, customer acquisition costs, conversion funnels and lifetime value metrics across all digital campaigns.",
+      "Dashboard de despesas desenvolvido em Power BI para monitorar os gastos da empresa, permitindo analisar despesas por centro de custo, acompanhar a evolução dos gastos ao longo do tempo e visualizar o saldo financeiro em uma interface interativa.",
     image: expensesDashboardImg,
     icon: BarChart3,
     gradient: "from-purple-500/20 to-purple-600/10",
