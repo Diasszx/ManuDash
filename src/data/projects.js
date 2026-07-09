@@ -49,7 +49,7 @@ export const projects = [
     },
   },
   {
-    id: "marketing-dashboard",
+    id: "expenses-dashboard",
     title: "Dashboard de Despesas",
     subtitle: "Métricas de Campanhas e ROI",
     objective:

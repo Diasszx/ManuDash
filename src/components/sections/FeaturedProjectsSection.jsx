@@ -33,7 +33,7 @@ const projects = [
     gradient: "from-blue-500/20 to-blue-600/10",
   },
   {
-    id: "marketing-dashboard",
+    id: "expenses-dashboard",
     title: "Dashboard de Despesas",
     description:
       "Dashboard de despesas desenvolvido em Power BI para monitorar os gastos da empresa, permitindo analisar despesas por centro de custo, acompanhar a evolução dos gastos ao longo do tempo e visualizar o saldo financeiro em uma interface interativa.",
