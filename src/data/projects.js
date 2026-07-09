@@ -54,7 +54,7 @@ export const projects = [
   },
   {
     id: "marketing-dashboard",
-    title: "Marketing Dashboard",
+    title: "Dashboard de Despesas",
     subtitle: "Métricas de Campanhas e ROI",
     objective:
       "Acompanhar performance de campanhas digitais e calcular ROI em tempo real para otimização de investimentos em marketing.",
