@@ -1,4 +1,4 @@
-import salesDashboardImg from "../assets/sales-dashboard.png";
+import salesDashboardImg from "../assets/sales-hover.png";
 
 export const projects = [
   {

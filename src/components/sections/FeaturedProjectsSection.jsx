@@ -9,7 +9,9 @@ import {
 } from "lucide-react";
 import { Button } from "../ui/Button";
 import { Link } from "react-router-dom";
-import salesDashboardImg from "../../assets/sales-dashboard.png";
+import salesDashboardImg from "../../assets/sales-hover.png";
+import financeDashboardImg from "../../assets/finance-hover.jpg";
+import expensesDashboardImg from "../../assets/expenses-hover.jpeg";
 
 const projects = [
   {
@@ -26,6 +28,7 @@ const projects = [
     title: "Dashboard Financeiro",
     description:
       "Comprehensive financial overview tracking cash flow health, profitability ratios, EBITDA evolution and expense breakdown — designed for C-level decision making.",
+    image: financeDashboardImg,
     icon: DollarSign,
     gradient: "from-blue-500/20 to-blue-600/10",
   },
@@ -34,6 +37,7 @@ const projects = [
     title: "Dashboard de Despesas",
     description:
       "Campaign performance hub measuring ROI by channel, customer acquisition costs, conversion funnels and lifetime value metrics across all digital campaigns.",
+    image: expensesDashboardImg,
     icon: BarChart3,
     gradient: "from-purple-500/20 to-purple-600/10",
   },
