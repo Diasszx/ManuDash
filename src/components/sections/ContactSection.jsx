@@ -31,10 +31,16 @@ export function ContactSection() {
                 desenvolvimento de dashboards e consultoria em analytics. 
                 Vamos conversar sobre como posso ajudar seu negócio.
               </p>
-              <Button className="group">
-                Iniciar conversa
-                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-              </Button>
+              <a
+                href="https://wa.me/558398249382?text=Gostaria%20de%20uma%20consultoria%20BI"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button className="group">
+                  Iniciar conversa
+                  <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                </Button>
+              </a>
             </motion.div>
 
             {/* Right - Contact Info */}

@@ -254,12 +254,16 @@ export function ProjectPage() {
                 Vamos conversar sobre como posso ajudar sua empresa a
                 transformar dados em decisões estratégicas.
               </p>
-              <Link to="/#contato">
+              <a
+                href="https://wa.me/558398249382?text=Gostaria%20de%20uma%20consultoria%20BI"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button className="group">
                   Iniciar projeto
                   <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
                 </Button>
-              </Link>
+              </a>
             </motion.div>
           </div>
         </section>
