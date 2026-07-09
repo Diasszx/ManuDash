@@ -32,7 +32,7 @@ export const projects = [
     subtitle: "Visão Executiva de Saúde Financeira",
     objective:
       "Fornecer visão consolidada da saúde financeira para executivos e stakeholders, facilitando decisões estratégicas de investimento e controle de custos.",
-    technologies: ["Power BI", "Python", "SQL", "APIs Bancárias"],
+    technologies: ["Power BI"],
     kpis: [
       "Cash Flow",
       "EBITDA",
