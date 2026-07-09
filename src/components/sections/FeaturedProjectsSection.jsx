@@ -14,7 +14,7 @@ import salesDashboardImg from "../../assets/sales-dashboard.png";
 const projects = [
   {
     id: "sales-dashboard",
-    title: "Vendas Dashboard",
+    title: "Dashboard de vendas",
     description:
       "Executive dashboard developed to monitor revenue growth, sales performance across regions, profit margin analysis and product portfolio performance — enabling data-driven commercial strategy.",
     image: salesDashboardImg,
