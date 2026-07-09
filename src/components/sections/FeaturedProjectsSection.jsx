@@ -82,7 +82,7 @@ function ProjectCard({ project, index }) {
           </h3>
 
           <p className="text-text-muted text-[10px] md:text-xs uppercase tracking-[0.2em] mb-4 font-medium">
-            Objectives and KPIs
+            Objetivos e KPIs
           </p>
 
           <p className="text-text-secondary leading-relaxed text-sm flex-1 mb-8">
