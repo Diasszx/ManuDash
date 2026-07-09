@@ -30,7 +30,7 @@ export const projects = [
   },
   {
     id: "financial-dashboard",
-    title: "Dashboard de Despesas",
+    title: "Dashboard Financeiro",
     subtitle: "Visão Executiva de Saúde Financeira",
     objective:
       "Fornecer visão consolidada da saúde financeira para executivos e stakeholders, facilitando decisões estratégicas de investimento e controle de custos.",
