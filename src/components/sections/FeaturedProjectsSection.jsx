@@ -27,7 +27,7 @@ const projects = [
     id: "financial-dashboard",
     title: "Dashboard Financeiro",
     description:
-      "Comprehensive financial overview tracking cash flow health, profitability ratios, EBITDA evolution and expense breakdown — designed for C-level decision making.",
+      "Dashboard financeiro desenvolvido em Power BI para monitorar os principais indicadores da empresa, permitindo acompanhar receita, custos, despesas e lucro por meio de análises temporais, categorias e clientes em uma interface interativa.",
     image: financeDashboardImg,
     icon: DollarSign,
     gradient: "from-blue-500/20 to-blue-600/10",

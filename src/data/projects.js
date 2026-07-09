@@ -44,12 +44,12 @@ export const projects = [
     images: ["/dashboard-financial-1.jpg", "/dashboard-financial-2.jpg"],
     caseStudy: {
       problem:
-        "A diretoria financeira não tinha visibilidade em tempo real da saúde financeira da empresa. O fechamento contábil levava 10 dias, impossibilitando decisões ágeis. Não havia consolidação automática das 7 unidades de negócio, e o fluxo de caixa era monitorado apenas semanalmente, causando surpresas desagradáveis.",
-      data: "Integração de dados de 3 sistemas contábeis diferentes, 4 instituições bancárias via API, planilhas de orçamento e forecast. O histórico continha 5 anos de movimentações. O maior desafio foi padronizar o plano de contas entre as unidades e tratar variações cambiais de operações internacionais.",
+        "Empresas precisam acompanhar seus indicadores financeiros de forma rápida e organizada para identificar variações de receita, custos e lucratividade, apoiando decisões estratégicas com base em dados.",
+      data: "Base de dados fictícia para fins educacionais contendo informações financeiras, como receitas, custos, despesas, categorias, clientes e períodos, tratadas e modeladas para análise no Power BI.",
       solution:
-        "Construí um dashboard executivo com visão consolidada e drill-down por unidade de negócio. Implementei análise de fluxo de caixa preditivo usando Python para previsão de saldos. Criei comparativos orçado vs realizado com variância automática e alertas de desvios. Desenvolvi uma versão simplificada para o conselho com os principais indicadores.",
+        "Desenvolvimento de um dashboard financeiro utilizando Power BI, com tratamento dos dados no Power Query, modelagem dimensional e criação de medidas em DAX. O painel apresenta KPIs financeiros, evolução da receita ao longo do tempo, comparação entre custos e despesas, distribuição da receita por categoria e análise dos principais clientes, com filtros interativos para facilitar a exploração dos dados.",
       impact:
-        "Redução do tempo de fechamento de 10 para 4 dias. Identificação de R$ 2.3M em economia de custos através de análise de despesas. Melhoria no controle de fluxo de caixa reduzindo necessidade de linha de crédito em 40%. A diretoria passou a ter reuniões semanais baseadas em dados atualizados, aumentando a agilidade estratégica.",
+        "Dashboard interativo que consolida os principais indicadores financeiros em uma única interface, permitindo uma visão clara da performance financeira da empresa e demonstrando a aplicação de boas práticas em Business Intelligence, modelagem de dados e visualização de informações.",
     },
   },
   {
