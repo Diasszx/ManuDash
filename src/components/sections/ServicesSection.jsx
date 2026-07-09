@@ -12,37 +12,37 @@ import {
 const services = [
   {
     icon: LayoutDashboard,
-    title: "Dashboard Development",
+    title: "Criação de Dashboards",
     description:
       "Criação de dashboards interativos e intuitivos no Power BI, conectando múltiplas fontes de dados para visão 360° do negócio.",
   },
   {
     icon: Lightbulb,
-    title: "Business Intelligence Consulting",
+    title: "Consultoria em BI",
     description:
       "Consultoria estratégica para implementação de cultura data-driven, definição de arquitetura de dados e melhores práticas.",
   },
   {
     icon: Target,
-    title: "KPI Definition",
+    title: "Definição de KPIs",
     description:
       "Definição e mapeamento de indicadores-chave de performance alinhados aos objetivos estratégicos do negócio.",
   },
   {
     icon: BarChart2,
-    title: "Data Visualization",
+    title: "Visualização de Dados",
     description:
       "Design de visualizações que comunicam insights complexos de forma clara e acionável para diferentes públicos.",
   },
   {
     icon: FileText,
-    title: "Executive Reports",
+    title: "Relatórios Executivos",
     description:
       "Relatórios executivos automatizados com foco em storytelling de dados para apoiar decisões de alta gestão.",
   },
   {
     icon: TrendingUp,
-    title: "Business Analytics",
+    title: "Análise exploratória",
     description:
       "Análise exploratória de dados para identificar tendências, padrões e oportunidades de melhoria nos processos.",
   },
