@@ -86,8 +86,8 @@ export function ServicesSection() {
           >
             <SectionTitle className="mb-4">Serviços</SectionTitle>
             <p className="text-text-secondary text-lg">
-              Soluções de Business Intelligence e Analytics para transformar
-              dados em vantagem competitiva
+              Soluções de BI e Análises para transformar dados em vantagem
+              competitiva
             </p>
           </motion.div>
 

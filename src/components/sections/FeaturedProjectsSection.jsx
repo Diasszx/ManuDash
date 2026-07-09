@@ -18,7 +18,7 @@ const projects = [
     id: "sales-dashboard",
     title: "Dashboard de vendas",
     description:
-      "Executive dashboard developed to monitor revenue growth, sales performance across regions, profit margin analysis and product portfolio performance — enabling data-driven commercial strategy.",
+      " Dashboard interativo desenvolvido em Power BI para monitoramento de indicadores comerciais, permitindo analisar receita, custos, margem bruta e desempenho de vendas por período, gerente, vendedor e produto.",
     image: salesDashboardImg,
     icon: TrendingUp,
     gradient: "from-emerald-500/20 to-emerald-600/10",

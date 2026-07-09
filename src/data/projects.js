@@ -18,12 +18,12 @@ export const projects = [
     images: [salesDashboardImg],
     caseStudy: {
       problem:
-        "A empresa enfrentava dificuldades em acompanhar a performance de vendas em tempo real. Os relatórios eram gerados manualmente no Excel, levando dias para consolidar dados de múltiplas fontes (CRM, ERP, planilhas). A falta de visibilidade imediata impedia reações rápidas a quedas de vendas e oportunidades de crescimento.",
-      data: "Foram integrados dados de 5 fontes distintas: CRM ( Salesforce), ERP (SAP), planilhas de metas, dados geográficos de regiões e histórico de vendas dos últimos 3 anos. O volume total era de aproximadamente 500k registros mensais. Os principais desafios foram a qualidade dos dados (inconsistências e duplicatas) e a necessidade de atualização diária.",
+        "Empresas precisam transformar grandes volumes de dados de vendas em informações claras para apoiar a tomada de decisão. Este projeto teve como objetivo desenvolver um dashboard que centralizasse os principais indicadores comerciais em uma interface intuitiva, facilitando a análise de desempenho.",
+      data: "Foi utilizada uma base de dados fictícia para fins educacionais, contendo informações de vendas, clientes, produtos, vendedores e períodos. Os dados passaram por etapas de tratamento e modelagem para garantir consistência e possibilitar análises multidimensionais.",
       solution:
-        "Desenvolvi um dashboard no Power BI com modelagem dimensional em estrela, utilizando DAX para cálculos complexos de YoY, MoM e projeções. Implementei drill-through para análise detalhada por vendedor, produto e região. Criei alertas automáticos para variações anormais e uma interface mobile-friendly para acesso em campo pela equipe comercial.",
+        "Desenvolvi um dashboard no Power BI utilizando modelagem dimensional em estrela, Power Query para transformação dos dados e DAX para criação de indicadores e métricas. Também foram implementados filtros interativos, drill-through, tooltips personalizados e navegação entre páginas para facilitar a exploração das informações.",
       impact:
-        "Redução de 80% no tempo de geração de relatórios (de 3 dias para menos de 1 hora). Aumento de 23% na taxa de conversão após identificação de gargalos no funil. Melhoria de 15% na precisão de forecasting. O time comercial passou a tomar decisões baseadas em dados em tempo real, resultando em crescimento de 18% na receita no primeiro trimestre após implementação.",
+        "O projeto resultou em um dashboard interativo capaz de apresentar indicadores de vendas de forma clara e organizada, permitindo análises por período, produto, região e vendedor. Além de consolidar conhecimentos em Business Intelligence, o projeto demonstra a aplicação de boas práticas de modelagem de dados, visualização e storytelling.",
     },
   },
   {

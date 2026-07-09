@@ -145,7 +145,7 @@ export function ProjectPage() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.6 }}
               >
-                Case Study
+                Estudo de Caso
               </motion.h2>
 
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
