@@ -23,7 +23,7 @@ const projects = [
   },
   {
     id: "financial-dashboard",
-    title: "Dashboard de Despesas",
+    title: "Dashboard Financeiro",
     description:
       "Comprehensive financial overview tracking cash flow health, profitability ratios, EBITDA evolution and expense breakdown — designed for C-level decision making.",
     icon: DollarSign,
@@ -31,19 +31,11 @@ const projects = [
   },
   {
     id: "marketing-dashboard",
-    title: "Marketing Dashboard",
+    title: "Dashboard de Despesas",
     description:
       "Campaign performance hub measuring ROI by channel, customer acquisition costs, conversion funnels and lifetime value metrics across all digital campaigns.",
     icon: BarChart3,
     gradient: "from-purple-500/20 to-purple-600/10",
-  },
-  {
-    id: "operations-dashboard",
-    title: "Operations Dashboard",
-    description:
-      "Real-time operations centre tracking efficiency indicators, quality metrics, SLA compliance and throughput — optimising supply chain and logistics performance.",
-    icon: PieChart,
-    gradient: "from-orange-500/20 to-orange-600/10",
   },
 ];
 

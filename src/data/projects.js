@@ -27,7 +27,7 @@ export const projects = [
     },
   },
   {
-    id: "Dashboard Financeiro",
+    id: "financial-dashboard",
     title: "Dashboard de Despesas",
     subtitle: "Visão Executiva de Saúde Financeira",
     objective:
@@ -40,7 +40,7 @@ export const projects = [
       "Despesas vs Orçamento",
       "DRE Consolidada",
     ],
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/embed/es3PRxPbsks",
     images: ["/dashboard-financial-1.jpg", "/dashboard-financial-2.jpg"],
     caseStudy: {
       problem:
@@ -66,7 +66,7 @@ export const projects = [
       "Taxa de Conversão",
       "Leads Qualificados",
     ],
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/embed/zkDiMBKtwog",
     images: ["/dashboard-marketing-1.jpg"],
     caseStudy: {
       problem:
@@ -76,32 +76,6 @@ export const projects = [
         "Dashboard integrado com atualização horária mostrando performance por canal, campanha e criativo. Implementei modelo de atribuição multitoque. Criei funil de conversão completo desde impressão até receita. Desenvolvi alertas para campanhas com CPA acima do esperado e recomendações automáticas de reallocation de budget.",
       impact:
         "Aumento de 35% no ROI de campanhas após identificação de canais mais eficientes. Redução de 28% no CAC através de otimização contínua. O time passou a reagir em até 4 horas a campanhas underperforming vs 3 dias anteriormente. Economia de R$ 500k em investimentos ineficientes no primeiro semestre.",
-    },
-  },
-  {
-    id: "operations-dashboard",
-    title: "Operations Dashboard",
-    subtitle: "Eficiência Operacional e KPIs",
-    objective:
-      "Monitorar indicadores operacionais em tempo real para garantir eficiência, qualidade e cumprimento de SLAs.",
-    technologies: ["Power BI", "Excel", "DAX", "SharePoint"],
-    kpis: [
-      "Eficiência Operacional",
-      "Taxa de Qualidade",
-      "SLA",
-      "Produtividade",
-      "Gargalos",
-    ],
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    images: ["/dashboard-ops-1.jpg"],
-    caseStudy: {
-      problem:
-        "A operação não tinha visibilidade em tempo real de gargalos e métricas críticas. Relatórios eram gerados no final do dia, impedindo ações corretivas imediatas. A qualidade era medida apenas ao final do processo, resultando em retrabalho custoso. O SLA com clientes estava sendo cumprido apenas em 78% dos casos.",
-      data: "Dados extraídos do sistema de gestão de tarefas, controle de qualidade, sistema de tickets e planilhas de produtividade da equipe. Aproximadamente 10k registros diários. O desafio foi criar um modelo que permitisse análise em tempo real sem impactar a performance dos sistemas operacionais.",
-      solution:
-        "Dashboard operacional com atualização em tempo real mostrando filas, tempos de processamento e gargalos. Implementei controle estatístico de processo (SPC) para monitoramento de qualidade. Criei visão individual por colaborador para gestão de performance. Desenvolvi sistema de alertas para SLAs em risco.",
-      impact:
-        "Aumento do cumprimento de SLA de 78% para 95%. Redução de 40% no tempo médio de processamento após identificação e eliminação de gargalos. Diminuição de 60% no retrabalho através de monitoramento proativo de qualidade. A equipe de operações passou a ter visibilidade instantânea e tomada de decisão ágil.",
     },
   },
 ];
