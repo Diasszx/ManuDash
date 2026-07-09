@@ -1,4 +1,6 @@
 import salesDashboardImg from "../assets/sales-hover.png";
+import financeDashboardImg from "../assets/finance-hover.jpg";
+import expensesDashboardImg from "../assets/expenses-hover.jpeg";
 
 export const projects = [
   {
@@ -33,15 +35,9 @@ export const projects = [
     objective:
       "Fornecer visão consolidada da saúde financeira para executivos e stakeholders, facilitando decisões estratégicas de investimento e controle de custos.",
     technologies: ["Power BI"],
-    kpis: [
-      "Cash Flow",
-      "EBITDA",
-      "Margem Líquida",
-      "Despesas vs Orçamento",
-      "DRE Consolidada",
-    ],
+    kpis: ["Margem Líquida", "Despesas vs Orçamento", "DRE Consolidada"],
     videoUrl: "https://www.youtube.com/embed/es3PRxPbsks",
-    images: ["/dashboard-financial-1.jpg", "/dashboard-financial-2.jpg"],
+    images: [financeDashboardImg],
     caseStudy: {
       problem:
         "Empresas precisam acompanhar seus indicadores financeiros de forma rápida e organizada para identificar variações de receita, custos e lucratividade, apoiando decisões estratégicas com base em dados.",
@@ -58,7 +54,7 @@ export const projects = [
     subtitle: "Métricas de Campanhas e ROI",
     objective:
       "Acompanhar performance de campanhas digitais e calcular ROI em tempo real para otimização de investimentos em marketing.",
-    technologies: ["Power BI", "Google Analytics 4", "Google Ads API", "SQL"],
+    technologies: ["Power BI"],
     kpis: [
       "ROI por Canal",
       "CAC",
@@ -67,7 +63,7 @@ export const projects = [
       "Leads Qualificados",
     ],
     videoUrl: "https://www.youtube.com/embed/zkDiMBKtwog",
-    images: ["/dashboard-marketing-1.jpg"],
+    images: [expensesDashboardImg],
     caseStudy: {
       problem:
         "O controle eficiente das despesas é essencial para manter a saúde financeira da empresa. Este projeto foi desenvolvido para centralizar as informações de gastos e facilitar a identificação dos principais centros de custo, apoiando análises financeiras e o controle orçamentário.",
