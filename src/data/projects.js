@@ -40,7 +40,7 @@ export const projects = [
     images: [financeDashboardImg],
     caseStudy: {
       problem:
-        "Empresas precisam acompanhar seus indicadores financeiros de forma rápida e organizada para identificar variações de receita, custos e lucratividade, apoiando decisões estratégicas com base em dados.",
+        "Empresas precisam acompanhar seus indicado res financeiros de forma rápida e organizada para identificar variações de receita, custos e lucratividade, apoiando decisões estratégicas com base em dados.",
       data: "Base de dados fictícia para fins educacionais contendo informações financeiras, como receitas, custos, despesas, categorias, clientes e períodos, tratadas e modeladas para análise no Power BI.",
       solution:
         "Desenvolvimento de um dashboard financeiro utilizando Power BI, com tratamento dos dados no Power Query, modelagem dimensional e criação de medidas em DAX. O painel apresenta KPIs financeiros, evolução da receita ao longo do tempo, comparação entre custos e despesas, distribuição da receita por categoria e análise dos principais clientes, com filtros interativos para facilitar a exploração dos dados.",

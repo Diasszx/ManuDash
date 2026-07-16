@@ -17,7 +17,10 @@ const staggerContainer = {
 
 export function HeroSection() {
   return (
-    <section id="inicio" className="relative min-h-screen flex items-center overflow-hidden">
+    <section
+      id="inicio"
+      className="relative min-h-screen flex items-center overflow-hidden"
+    >
       {/* Background Image */}
       <motion.div
         className="absolute inset-0 z-0"
@@ -26,7 +29,7 @@ export function HeroSection() {
         transition={{ duration: 1.2, ease: "easeOut" }}
       >
         <img
-          src="/tosue.png"
+          src="/touse.png"
           alt=""
           className="w-full h-full object-cover object-center"
         />
@@ -66,9 +69,9 @@ export function HeroSection() {
             variants={fadeInUp}
             transition={{ duration: 0.8, ease: [0.25, 0.1, 0.25, 1] }}
           >
-            Transformando dados de negócio em decisões estratégicas através de 
-            dashboards e analytics. Especialista em Power BI, análise de dados 
-            e visualização executiva.
+            Transformando dados de negócio em decisões estratégicas através de
+            dashboards e analytics. Especialista em Power BI, análise de dados e
+            visualização executiva.
           </motion.p>
 
           {/* CTA Button */}
